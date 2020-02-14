@@ -30,7 +30,7 @@ class App extends React.Component{
       <div className="container">
       
         {this.state.players.map(player => (
-          <Card key={player.id} name={player.name} country={player.country} />
+          <Card key={player.id} name={player.name} country={player.country} searches={player.searches} />
         ))}
       </div>
       </div>

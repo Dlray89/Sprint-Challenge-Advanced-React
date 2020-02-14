@@ -2,11 +2,12 @@
 
 
 .cardContainer{
-    background: linear-gradient(to bottom, #cac531, #f3f9a7);
-    border: solid 1px #544a7d;
+    background: linear-gradient(to top, #000000, #434343); 
+    border: solid 1px #434343;
     border-radius: 20px;
     width: 95%;
     text-align: center;
+    color: #ba8b02;
 
 }
 

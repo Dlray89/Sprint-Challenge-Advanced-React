@@ -1,7 +1,7 @@
 import React from "react";
-import App from "./App";
+import Card from "./Card";
 import { render } from "@testing-library/react";
 
 test("render App without crashing", () => {
-  render(<App />);
+  render(<Card />);
 });

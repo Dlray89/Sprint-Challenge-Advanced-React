@@ -9,7 +9,11 @@ const Card = props => {
     <div className="cardContainer">
       <h1>Women Players</h1>
       <p>{props.name} <br />
-      {props.country}
+      <br />
+      I am from the:<br />
+      {props.country} <br /><br />
+      I have been looked up:<br />
+      {props.searches}
       </p>
     </div>
 

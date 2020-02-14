@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useLocalStorage } from "./client/src/hooks/uselocaleStorage";
+import { useLocalStorage } from "./hooks/uselocaleStorage";
 
 const useDarkMode = (key, initialValue) => {
 
